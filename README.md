@@ -90,8 +90,8 @@ focus:
 
 ### 🚀 Featured Projects
 
-#### 1. 🛠️ AI SRE Platform – Data & Incident Operations
-**Repository:** [AI-SRE-Platform-for-Autonomous-Operations](https://github.com/PrathamUdayG/AI-SRE-Platform-for-Autonomous-Operations)  
+#### 1. 🛠️ Autonomous AI SRE Platform – Data & Incident Operations
+**Repository:** [RCA_SRE_AI_Platform](https://github.com/PrathamUdayG/RCA_SRE_AI_Platform)  
 **Technologies:** `Python` • `FastAPI` • `PostgreSQL` • `Redis` • `Docker` • `FAISS` • `pgvector`
 
 - Data-driven SRE platform built for collecting infrastructure telemetry, normalizing operational events, detecting anomalies, correlating signals, and accelerating incident investigation.

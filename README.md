@@ -99,14 +99,22 @@ focus:
 - Implemented PostgreSQL-backed event storage workflows, Redis caching layer, and pgvector / FAISS vector retrieval components.
 - Integrated operational logs and monitoring workflows supporting rapid incident triage and root-cause analysis.
 
-#### 2. 🔍 SyntaxLens
+#### 2. 📄 PDF AI ChatBot – RAG & Hybrid Retrieval
+**Repository:** [pdf_ai_chatbot](https://github.com/PrathamUdayG/pdf_ai_chatbot) | **Live Demo:** [Streamlit App](https://pdfaichatbot-v8jke44ch5pxzjvfpzmafr.streamlit.app/)  
+**Technologies:** `Python` • `LangChain` • `ChromaDB` • `Google Gemini API` • `BM25` • `Streamlit` • `Docker`
+
+- Production-grade Retrieval-Augmented Generation (RAG) system for multi-document PDF Q&A featuring real-time token streaming and exact page-level citations.
+- Architected a hybrid retrieval pipeline combining ChromaDB vector semantic search (0.7 weight) and BM25 keyword search (0.3 weight) fused via Reciprocal Rank Fusion (RRF).
+- Built a two-stage LCEL chain architecture with conversation memory context rewriting and Docker containerization.
+
+#### 3. 🔍 SyntaxLens
 **Technologies:** `Python` • `AST Parsing` • `FAISS` • `LangChain` • `LangGraph` • `LLM Semantic Analysis`
 
 - Software engineering and AI system combining structured Abstract Syntax Tree (AST) parsing, data processing, LLM-assisted semantic code analysis, and document retrieval.
 - Architected modular retrieval and processing workflows using Python, FAISS, LangChain, and LangGraph to analyze code structures and extract semantic insights.
 - Positioned as a maintainable, stateful software system rather than a standalone prompt demonstration.
 
-#### 3. 📈 Customer Churn Prediction & Retention Analytics
+#### 4. 📈 Customer Churn Prediction & Retention Analytics
 **Technologies:** `Python` • `Pandas` • `Scikit-learn` • `XGBoost` • `GridSearchCV` • `MS SQL Server`
 
 - End-to-end predictive analytics pipeline designed to analyze over 7,000 customer records and forecast churn risk for customer retention workflows.
@@ -125,6 +133,7 @@ focus:
 #### ⚙️ Backend & Software Engineering
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-0055DA?style=for-the-badge&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
@@ -142,6 +151,7 @@ focus:
 #### 🧠 Generative AI & LLM Systems
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/FAISS-0A0A0A?style=for-the-badge)
 ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
@@ -153,11 +163,11 @@ focus:
 | Category | Skills & Tools |
 |---|---|
 | **Programming** | Python, SQL |
-| **Backend Engineering** | FastAPI, Uvicorn, REST APIs, HTTP, JSON, API Integration, Git, GitHub, Debugging, Unit Testing, Integration Testing, Code Review |
+| **Backend Engineering** | FastAPI, Uvicorn, REST APIs, Streamlit, HTTP, JSON, API Integration, Git, GitHub, Debugging, Unit Testing, Integration Testing |
 | **Databases** | PostgreSQL, MS SQL Server, Redis, CRUD, Joins, Aggregations, Indexing |
 | **Data Engineering** | Data Ingestion, Data Cleaning, Data Validation, ETL/ELT, Data Quality Checks |
 | **AI / Machine Learning** | Pandas, NumPy, Scikit-learn, XGBoost, Machine Learning, Deep Learning, Model Evaluation |
-| **Generative AI** | RAG, LangChain, LangGraph, LLM Applications, FAISS, pgvector, AST Parsing, Retrieval |
+| **Generative AI** | RAG, Hybrid Search (BM25 + Vector), LangChain, LangGraph, LLM Applications, ChromaDB, FAISS, pgvector, AST Parsing |
 | **DevOps / Operations** | Docker, Redis, Application Logs, Metrics, Monitoring, Incident Triage, Root-Cause Analysis |
 
 ---

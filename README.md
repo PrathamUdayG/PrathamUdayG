@@ -68,14 +68,8 @@ focus:
 
 ### 💼 Work Experience
 
-#### 🔹 AI/ML Engineer Intern – Backend & AI Systems
-**ORTUSOLIS TECHNOLOGY** | *Jul 2026 – Aug 2026*
-- Developed Python workflows for an AI-driven operations platform to ingest and process infrastructure telemetry, operational events, and system data.
-- Implemented Python and PostgreSQL data-processing and validation workflows for anomaly detection, event correlation, incident detection, and root-cause analysis.
-- Worked across backend services, scheduled collectors, application logs, and containerized components in Docker environments.
-
-#### 🔹 AI/ML Engineer Intern – Backend & AI Systems
-**TURYON TECH LABS PVT. LTD.** | *Aug 2025 – May 2026*
+#### 🔹 AI/ML Engineer – Backend & AI Systems
+**TURYON TECH LABS PVT. LTD.** | *Aug 2025 – Present*
 - Built **SyntaxLens**, a Python-based software system combining structured AST parsing, data processing, and LLM-assisted semantic analysis.
 - Developed modular retrieval and processing workflows using Python, FAISS, LangChain, and LangGraph with strong emphasis on software maintainability.
 - Conducted full lifecycle tasks including backend implementation, debugging, workflow testing, integration, and technical documentation.
